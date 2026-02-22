@@ -1,0 +1,28 @@
+id = "adamantris.FlyFishingNoclip"
+name = "FlyFishing Noclip"
+description = "A fork of BlueberryWolfi's FlyFishing, with noclip"
+version = "1.0.0"
+homepage = "https://github.com/adamantris/FlyFishing_Noclip"
+author = "adamantris"
+
+icon = "icon.png"
+readme = "README.md"
+#changelog = "CHANGELOG.md" # optional
+
+ # optional
+extra_files = [
+
+]
+
+# both are optional here, pick what you want
+[project]
+#csharp = "./scriptmod/adamantris.Cave.csproj"
+godot = "./project.godot"
+
+[[dependencies]]
+thunderstore_version = "NotNet-GDWeave-2.0.12"
+
+[[dependencies]]
+thunderstore_version = "BlueberryWolfi-BlueberryWolfiAPIs-1.0.2"
+
+# example dependency
